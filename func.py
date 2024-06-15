@@ -2,7 +2,7 @@ from distutils.command.config import config
 from distutils.log import info
 import time
 from tkinter import *  
-from selenium.webdriver.common.by import By
+import By
 from functools import partial
 import subprocess, shutil
 import os
