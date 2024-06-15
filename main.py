@@ -8,8 +8,8 @@ def is_admin():
         return False
 
 def sm_cred():
-    uname = input('Enter a username: ')
-    passW = input('Enter a password: ')
+    uname = input('HUNTER_USERNAME: ')
+    passW = input('HUNTER_PASSWORD: ')
 
     # if uname == "nk" and passW == "nk":
     #     Gui()
